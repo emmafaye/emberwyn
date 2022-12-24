@@ -158,11 +158,11 @@ These styles are required to make icons render reliably */
 
 .waves {
 	position: absolute;
+                overflow: hidden;
 	min-width: 100vw;
-	height: 30vh;
 	z-index: 0;
 	bottom: 0;
-	min-height: 200px;
+	min-height: 300px;
 	max-height: 450px;
 }
 .parallax > use {
